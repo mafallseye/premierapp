@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import HelloWorld from "./components/myNavbar.vue";
+import myNavbar from "./components/myNavbar.vue";
 
 export default {
   name: "App",
