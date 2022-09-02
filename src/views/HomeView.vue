@@ -6,7 +6,7 @@
       <div class="carousel w-full ">
         <div id="slide1" class="contener carousel-item relative w-full">
           <img src="@/assets/dev.jpg" class="w-full" />
-          <div class="texte_centrer">Exemple de texte</div>
+          <div class="texte_centrer text-3xl text-white">Developpeur fullstack</div>
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -417,7 +417,7 @@ export default {
 .contener{
   position: relative;
   text-align: center;
-  color: red;
+ 
 }
 .texte_centrer {
   position: absolute;
