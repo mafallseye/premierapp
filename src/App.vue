@@ -1,7 +1,8 @@
 <template>
-  <myNavbar />
+  <router-view />
 </template>
 
+<<<<<<< HEAD
 <script>
 import myNavbar from "./components/myNavbar.vue";
 
@@ -21,3 +22,6 @@ export default {
 
 }
 </style>
+=======
+<style></style>
+>>>>>>> 531157a5c07278a79d565698cd13ab4c691434b5
