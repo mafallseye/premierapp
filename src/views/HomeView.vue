@@ -3,9 +3,10 @@
     <HelloWorld />
 
     <section>
-      <div class="carousel w-full">
-        <div id="slide1" class="carousel-item relative w-full">
+      <div class="carousel w-full ">
+        <div id="slide1" class="contener carousel-item relative w-full">
           <img src="@/assets/dev.jpg" class="w-full" />
+          <div class="texte_centrer">Exemple de texte</div>
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
           >
@@ -13,6 +14,8 @@
             <a href="#slide2" class="btn btn-circle">❯</a>
           </div>
         </div>
+
+    
       </div>
     </section>
     <section>
@@ -410,5 +413,16 @@ export default {
 <style scoped>
 .teal {
   background-color: teal;
+}
+.contener{
+  position: relative;
+  text-align: center;
+  color: red;
+}
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 </style>
