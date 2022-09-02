@@ -19,7 +19,7 @@
       <div
         class="p-4 w-full text-center bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
-        <h5 class="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
+        <h5 class="mb-2 text-3xl font-bold text-green-400 dark:text-white">
           Je me présente,
         </h5>
         <p
@@ -44,9 +44,9 @@
     </section>
     <section class="teal">
       <div
-        class="p-4 bg-green-500 w-full text-center bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        class="p-4 bg-green-400 w-full text-center bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
-        <p class="mb-5 text-base text-gray-500 sm:text-lg dark:text-gray-400">
+        <p class="mb-5 text-base text-white sm:text-lg dark:text-gray-400">
           Bon passons aux choses sérieuses
         </p>
       </div>
