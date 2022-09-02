@@ -1,5 +1,6 @@
 module.exports = {
   content: [
+    "./src/**/*.{html,js}",
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
     "./node_modules/flowbite/**/*.js",
@@ -7,6 +8,6 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require("flowbite/plugin"),
-  require("daisyui")],
+  plugins: [require("flowbite/plugin","daisyui"),
+ ],
 };
