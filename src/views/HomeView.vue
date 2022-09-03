@@ -8,7 +8,7 @@
           id="slide1"
           class="contener bg-green-400 carousel-item relative w-full"
         >
-          <!-- <img src="@/assets/dev.jpg" class="w-full" /> -->
+          <img src="@/assets/dev.jpg" class="w-full" />
           <div class="texte_centrer text-4xl text-white">
             Developpeur fullstack
           </div>
