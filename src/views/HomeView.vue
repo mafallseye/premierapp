@@ -3,19 +3,19 @@
     <HelloWorld />
 
     <section>
-      <div class="carousel w-full ">
-        <div id="slide1" class="contener carousel-item relative w-full">
-          <img src="@/assets/dev.jpg" class="w-full" />
-          <div class="texte_centrer text-3xl text-white">Developpeur fullstack</div>
+      <div class="carousel w-full">
+        <div
+          id="slide1"
+          class="contener bg-green-400 carousel-item relative w-full"
+        >
+          <!-- <img src="@/assets/dev.jpg" class="w-full" /> -->
+          <div class="texte_centrer text-4xl text-white">
+            Developpeur fullstack
+          </div>
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
-          >
-            <a href="#slide4" class="btn btn-circle">❮</a>
-            <a href="#slide2" class="btn btn-circle">❯</a>
-          </div>
+          ></div>
         </div>
-
-    
       </div>
     </section>
     <section>
@@ -414,10 +414,9 @@ export default {
 .teal {
   background-color: teal;
 }
-.contener{
+.contener {
   position: relative;
   text-align: center;
- 
 }
 .texte_centrer {
   position: absolute;
