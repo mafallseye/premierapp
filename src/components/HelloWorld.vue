@@ -1,10 +1,10 @@
 <template>
   
-<nav class="p-3 bg-gray-50 rounded border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+<nav class="p-3 bg-white-50 rounded border-gray-200 dark:bg-gray-800 dark:border-gray-700  ">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <a href="#" class="flex items-center">
         <img src="@/assets/maxdev.png" class="mr-3 h-6 sm:h-10" alt="Flowbite Logo">
-        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Maxglabal</span>
+        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Maxglobal</span>
     </a>
     <button data-collapse-toggle="navbar-solid-bg" type="button" class="inline-flex justify-center items-center ml-3 text-gray-400 rounded-lg md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:text-gray-400 dark:hover:text-white dark:focus:ring-gray-500" aria-controls="navbar-solid-bg" aria-expanded="false">
       <span class="sr-only">Open main menu</span>

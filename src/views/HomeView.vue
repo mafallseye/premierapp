@@ -1,9 +1,32 @@
 <template>
   <div class="home">
     <HelloWorld />
-
     <section>
-      <div class="carousel w-full">
+      <div
+        class="p-4  w-auto h-auto text-left bg-white sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+      >
+        <h5 class="mb-2 text-5xl font-bold text-gray-900 dark:text-white">
+          Hey, je suis ingénieur en developpement web et mobile
+        </h5>
+        <p class="mb-5 text-left text-base text-gray-500 sm:text-lg dark:text-gray-400">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <div
+          class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4"
+        ></div>
+      </div>
+    </section>
+    .
+    <section>
+      <div class="carousel w-auto  m-10">
         <div
           id="slide1"
           class="contener bg-green-400 carousel-item relative w-full"
@@ -20,7 +43,7 @@
     </section>
     <section>
       <div
-        class="p-4 w-full text-center bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        class="p-4 w-auto text-center bg-white rounded-lg border shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
         <h5 class="mb-2 text-3xl font-bold text-green-400 dark:text-white">
           Je me présente,
