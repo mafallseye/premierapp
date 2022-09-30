@@ -174,31 +174,32 @@
               </p>
             </div>
             <div class="border p-8">
-              <div
-                class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
-              >
-                <svg
-                  class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-                    clip-rule="evenodd"
-                  ></path>
-                  <path
-                    d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z"
-                  ></path>
-                </svg>
+              <div class="carousel">
+                <div class="carousel-item w-full">
+                  <img src="@/assets/inter0.png" class="w-full" />
+                </div>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">
-                Business Automation
-              </h3>
-              <p class="text-gray-500 dark:text-gray-400">
-                Auto-assign tasks, send Slack messages, and much more. Now power
-                up with hundreds of new templates to help you get started.
+              <p class="mb-2 text-xl font-bold dark:text-white">
+                Mon Portfolio
+                <button
+                  type="button"
+                  class="text-white bg-green-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-0.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                  <span class="sr-only">Icon description</span>
+                </button>
               </p>
             </div>
 
