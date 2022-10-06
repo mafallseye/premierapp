@@ -1,5 +1,5 @@
 <template>
-    <section>
+  <section>
     <footer
       class="p-4 bg-gray-900 sm:p-6 dark:bg-gray-900 footer-center p-4 text-base-content text-left"
     >
@@ -87,11 +87,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
