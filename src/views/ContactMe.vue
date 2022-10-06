@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hello-world />
+    <HelloWorld />
     <section class="bg-white dark:bg-gray-900 mt-5">
       <div
         class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6"
@@ -198,6 +198,7 @@
 <script>
 import HelloWorld from "@/components/HelloWorld.vue";
 import Footer from "@/components/Footer.vue";
+
 export default {
   components: {
     HelloWorld,

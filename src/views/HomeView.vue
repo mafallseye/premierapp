@@ -299,7 +299,8 @@
           Besoin de developpeur web ? .
         </p>
         <a
-          href="/contact"
+        @click="showContact()"
+          href=""
           class="inline-flex text-gray-900 bg-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4"
           >Contactez moi</a
         >
@@ -330,11 +331,10 @@ export default {
     };
   },
   methods: {
-    download() {
-      const jsonData = encodeURIComponent('{"is_valid": true}');
-      this.myUrl = `Users/SEYE/Downloads/CV.docs,${jsonData}`;
-      this.myFilename = "@/components/CV.docs";
-    },
+   showContact(){
+    this.$router.push('/contact')
+   }
+
   },
 };
 </script>
