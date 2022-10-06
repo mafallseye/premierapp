@@ -282,104 +282,47 @@
     </section>
   </div>
 
-  <section>
-    <footer
-      class="p-4 bg-green-400 sm:p-6 dark:bg-gray-900 footer-center p-4 text-base-content text-left"
-    >
-      <div class="">
-        <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-          <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-            >
-              Service
-            </h2>
-            <ul class="text-white dark:text-gray-400">
-              <li class="mb-4">
-                <a href="https://flowbite.com/" class="hover:underline"
-                  >Creation de site web</a
-                >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >site vitrine wordpress</a
-                >
-              </li>
-              <li>
-                <a href="https://tailwindcss.com/" class="hover:underline"
-                  >creation d'API REST avec python</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-            >
-              Follow us
-            </h2>
-            <ul class="text-white dark:text-white">
-              <li class="mb-4">
-                <a
-                  href="https://github.com/maguette-fall-seye"
-                  class="hover:underline"
-                  >Github</a
-                >
-              </li>
-              <li>
-                <a href="https://discord.gg/4eeurUVvTy" class="hover:underline"
-                  >Discord</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2
-              class="mb-6 text-sm font-semibold text-white uppercase dark:text-white"
-            >
-              Contact
-            </h2>
-            <ul class="text-white dark:text-white">
-              <li class="mb-4">
-                <a href="#" class="hover:underline"
-                  >Email:maguettefseye@gmail.com</a
-                >
-              </li>
-              <li>
-                <a href="#" class="hover:underline"
-                  >Telephone:+221 78 282 09 98</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
+  <section class="bg-green-400 dark:bg-gray-900">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-sm text-center">
+        <!-- <h1
+            class="mb-4 text-7xl tracking-tight font-extrabold lg:text-9xl text-primary-600 dark:text-primary-500"
+          >
+            404
+          </h1> -->
+        <!-- <p
+            class="mb-4 text-3xl tracking-tight font-bold text-gray-900 md:text-4xl dark:text-white"
+          >
+            Something's missing.
+          </p> -->
+        <p class="mb-4 text-lg font-light text-gray-500 dark:text-gray-400">
+          Besoin de developpeur web ? .
+        </p>
+        <a
+          href="/contact"
+          class="inline-flex text-gray-900 bg-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4"
+          >Contactez moi</a
+        >
       </div>
-      <hr
-        class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
-      />
-      <div class="sm:flex sm:items-center sm:justify-center">
-        <span
-          class="text-sm text-white text-center sm:text-center dark:text-gray-400"
-          >© 2022
-          <a href="https://flowbite.com/" class="hover:underline">MaxDev™</a>.
-          All Rights Reserved.
-        </span>
-      </div>
-    </footer>
+    </div>
   </section>
+
+<Footer/>
 </template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import typical from "vue-typical";
+import Footer from "@/components/Footer.vue";
 
 export default {
   name: "HomeView",
   components: {
     HelloWorld,
     typical,
-  },
+    Footer
+},
   data() {
     return {
       myUrl: "#",
