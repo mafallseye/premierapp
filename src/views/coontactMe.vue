@@ -10,7 +10,7 @@
             <h2
               class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"
             >
-              Contact Moi
+              Contactez Moi
             </h2>
 
             <form action="#" class="space-y-8">
