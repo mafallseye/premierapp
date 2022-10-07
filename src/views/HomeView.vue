@@ -10,7 +10,7 @@
         >
           <img src="@/assets/dev.jpg" class="w-full" />
           <div class="texte_centrer text-7xl text-white">
-            <p class="text-xl">Maguette fall SEYE</p>
+            <p class="text-sm">Maguette fall SEYE</p>
 
             <typical
               class="typicalWrapper"
@@ -47,22 +47,12 @@
         </div>
       </div>
     </section>
-    <section class="">
+    <section>
       <div
-        class="p-4 w-auto   text-center bg-white shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        class="p-4 w-auto text-center bg-white shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
-        <h5 class="mb-2 main text-3xl font-bold text-green-400 dark:text-white">
-          <a
-            href="#"
-            class="block p-2 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-green-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
-          >
-            <h5
-              class="mb-2 text-2xl text-transform: uppercase font-bold tracking-tight text-green-400 dark:text-white"
-            >
-             a propos de moi
-            </h5>
-            
-          </a>
+        <h5 class="mb-2 text-3xl font-bold text-green-400 dark:text-white">
+          Je me présente,
         </h5>
         <p class="text-left text-gray-500 sm:text-lg dark:text-gray-400">
           Je m'appelle Maguette fall SEYE, spécialisée en developpement web et
@@ -365,12 +355,5 @@ export default {
 .typicalWrapper {
   font-size: 40px;
   font-family: cursive;
-}
-.main{
-  
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: 40%;
 }
 </style>
