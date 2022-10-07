@@ -353,7 +353,7 @@ export default {
   transform: translate(-50%, -50%);
 }
 .typicalWrapper {
-  font-size: 40px;
+  font-size: 20px;
   font-family: cursive;
 }
 </style>
