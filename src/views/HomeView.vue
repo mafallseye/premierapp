@@ -3,7 +3,7 @@
     <HelloWorld />
 
     <section>
-      <div class="carousel w-auto m-10">
+      <div class="carousel w-auto">
         <div
           id="slide1"
           class="contener bg-green-400 carousel-item relative w-full"
@@ -17,22 +17,27 @@
               :steps="[
                 'Developpeur web fullstack ',
                 1000,
-                'Developpeur frontend en react js',
+                'Developpeur  en react js',
                 500,
-                'Developpeur frontend en vue js',
+                'Developpeur  en vue js',
                 1000,
-                'Developpeur backend en Python',
+                'Developpeur  en Python',
+                1000,
+                'Developpeur en PHP',
                 1000,
               ]"
               :loop="Infinity"
               :wrapper="'h3'"
             ></typical>
-            <a href="CV.pdf" download="Mon CV.pdf">
+            <a
+              href="CV-maguette-fall-seye.pdf"
+              download="CV-maguette-fall-seye.pdf"
+            >
               <button
                 type="button"
-                class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
+                class="py-2.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-green-400 rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
               >
-                Telecharger cv
+                Mon cv
               </button>
             </a>
           </div>
@@ -42,12 +47,22 @@
         </div>
       </div>
     </section>
-    <section>
+    <section class="">
       <div
-        class="p-4 w-auto text-center bg-white shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
+        class="p-4 w-auto   text-center bg-white shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
-        <h5 class="mb-2 text-3xl font-bold text-green-400 dark:text-white">
-          Je me présente,
+        <h5 class="mb-2 main text-3xl font-bold text-green-400 dark:text-white">
+          <a
+            href="#"
+            class="block p-2 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-green-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+          >
+            <h5
+              class="mb-2 text-2xl text-transform: uppercase font-bold tracking-tight text-green-400 dark:text-white"
+            >
+             a propos de moi
+            </h5>
+            
+          </a>
         </h5>
         <p class="text-left text-gray-500 sm:text-lg dark:text-gray-400">
           Je m'appelle Maguette fall SEYE, spécialisée en developpement web et
@@ -300,8 +315,7 @@
         </p>
         <a
           @click="showContact()"
-         
-          class="inline-flex text-gray-900 bg-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4"
+          class="inline-flex cursor-pointer text-gray-900 bg-white hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900 my-4"
           >Contactez moi</a
         >
       </div>
@@ -351,5 +365,12 @@ export default {
 .typicalWrapper {
   font-size: 40px;
   font-family: cursive;
+}
+.main{
+  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
 }
 </style>
