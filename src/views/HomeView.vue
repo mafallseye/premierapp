@@ -77,7 +77,7 @@
         class="p-4 bg-green-400 w-full text-center bg-white shadow-md sm:p-8 dark:bg-gray-800 dark:border-gray-700"
       >
         <p class="mb-5 text-base text-white sm:text-lg dark:text-gray-400">
-          Mes projets:
+          Mes projets réalisées:
         </p>
       </div>
     </section>
@@ -128,25 +128,7 @@
               </div>
               <p class="mb-2 text-sm font-bold flex dark:text-white">
                 Application transfert d'argent fait en vue js
-                <button
-                  type="button"
-                  class="text-white bg-green-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-0.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <span class="sr-only">Icon description</span>
-                </button>
+               
               </p>
             </div>
             <div class="border p-8">
@@ -156,26 +138,8 @@
                 </div>
               </div>
               <p class="mb-2 text-xl font-bold dark:text-white">
-                Creation d'api rest en Flask(Framwork python) et swagger
-                <button
-                  type="button"
-                  class="text-white bg-green-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-0.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <span class="sr-only">Icon description</span>
-                </button>
+                Creation d'API REST en Flask Python et swagger ui
+               
               </p>
             </div>
             <div class="border p-8">
@@ -185,53 +149,20 @@
                 </div>
               </div>
               <p class="mb-2 text-xl font-bold dark:text-white">
-                Mon Portfolio
-                <button
-                  type="button"
-                  class="text-white bg-green-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-0.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="w-4 h-4"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                  <span class="sr-only">Icon description</span>
-                </button>
+                Mon Portfolio fait en vue js
+               
               </p>
             </div>
 
             <div class="border p-8">
-              <div
-                class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900"
-              >
-                <svg
-                  class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z"
-                  ></path>
-                  <path
-                    fill-rule="evenodd"
-                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+              <div class="carousel">
+                <div class="carousel-item w-full">
+                  <img src="@/assets/react.png" class="w-full" />
+                </div>
               </div>
-              <h3 class="mb-2 text-xl font-bold dark:text-white">Finance</h3>
-              <p class="text-gray-500 dark:text-gray-400">
-                Audit-proof software built for critical financial operations
-                like month-end close and quarterly budgeting.
+              <p class="mb-2 text-xl font-bold dark:text-white">
+                application listes des pays et leurs superficies
+               
               </p>
             </div>
             <div class="border p-8">
@@ -334,6 +265,9 @@ export default {
   methods: {
     showContact() {
       this.$router.push("/contact");
+    },
+    showProjetA() {
+      this.$router.push("/projetA");
     },
   },
 };
